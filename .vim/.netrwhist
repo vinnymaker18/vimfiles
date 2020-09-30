@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/evinay/resume/resume/templates'
-let g:netrw_dirhist_2='/Users/evinay/programming/mongodb-server'
-let g:netrw_dirhist_3='/Users/evinay/programming/python-projects/pip-container/testp/.git'
-let g:netrw_dirhist_4='/Users/evinay/programming/python-projects/pip-container/testp/testapp/static'
-let g:netrw_dirhist_5='/Users/evinay/programming/python-projects/pip-container/testp/testapp/static/testapp/js'

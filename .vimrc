@@ -5,7 +5,7 @@ set bg=light
 set shiftround wrap
 set backspace=eol,start,indent
 set formatoptions+=r
-set shiftwidth=4 expandtab tabstop=4 textwidth=79 softtabstop=4
+set shiftround shiftwidth=4 expandtab tabstop=4 textwidth=79 softtabstop=4
 set autoindent number nocompatible
 set colorcolumn=80
 
@@ -42,15 +42,10 @@ nnoremap ss :w<CR>
 " Pathogen load
 filetype off
 
-call pathogen#infect()
-call pathogen#helptags()
-
 let g:pymode_lint_on_write=1
 let g:pymode_rope_lookup_project=0
 
 set nocompatible
-filetype plugin indent on
-syntax on
 set t_Co=256
 
 " ctags building for omnicomplete.
@@ -62,3 +57,5 @@ set showmatch
 set guifont=Menlo\ Regular:h18
 set ignorecase
 set nolinebreak
+filetype plugin indent on
+syntax on
