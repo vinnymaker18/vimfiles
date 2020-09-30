@@ -1,6 +1,3 @@
-colorscheme desert
-set bg=light
-
 " Text formatting options
 set shiftround wrap
 set backspace=eol,start,indent
@@ -35,27 +32,16 @@ inoremap <right> <nop>
 inoremap jk <esc>
 nnoremap ss :w<CR>
 
-" Window dimensions and position.
-" Not setting the default position any more.
-" winpos 900 0
-
-" Pathogen load
-filetype off
-
-let g:pymode_lint_on_write=1
-let g:pymode_rope_lookup_project=0
-
 set nocompatible
 set t_Co=256
-
-" ctags building for omnicomplete.
-map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
 " Show matching braces
 set showmatch
 
-set guifont=Menlo\ Regular:h18
 set ignorecase
 set nolinebreak
 filetype plugin indent on
 syntax on
+
+set bg=dark
+colorscheme desert
